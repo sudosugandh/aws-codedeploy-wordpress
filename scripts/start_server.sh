@@ -1,5 +1,5 @@
 
 #!/bin/bash
-service mysql start
-service apache2 start
-service php-fpm.service start
+systemctl start apache2
+systemctl start mysql
+systemctl start php-fpm.service 
