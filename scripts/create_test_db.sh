@@ -1,3 +1,3 @@
 
 #!/bin/bash
-service restart mysql
+systemctl start mysql
