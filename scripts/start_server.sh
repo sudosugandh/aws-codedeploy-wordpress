@@ -1,5 +1,5 @@
 
 #!/bin/bash
-systemctl start mariadb.service
-systemctl start httpd.service
-systemctl start php-fpm.service
+service mysql start
+service apache2 start
+service php-fpm.service start
