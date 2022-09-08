@@ -1,3 +1,3 @@
 
 #!/bin/bash
-systemctl start mysql
+service mysql start
